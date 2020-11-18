@@ -14,7 +14,13 @@
   border: 1px solid black;
 }
 
-.row [class*="col-"]
+.row [class*="col-"]{
+  background-color: pink;
+}
+
+.row .row [class*="col-"]{
+  background-color: red;
+}
 
 .col-1{
   width: calc(100% / 12 * 1);

@@ -13,3 +13,12 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
+.row{
+  text-align: center;
+
+}
+
+.row .row{
+  padding: 5px;
+}
